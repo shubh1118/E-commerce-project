@@ -1,0 +1,21 @@
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(to right, #ff5733, #ff914d);
+  color: white;
+}
+
+.cta {
+  background: white;
+  color: #ff5733;
+  padding: 15px 25px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta:hover {
+  background: #ff5733;
+  color: white;
+  transform: scale(1.1);
+}

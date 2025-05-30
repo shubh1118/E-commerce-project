@@ -1,0 +1,55 @@
+/* 📁 src/components/team.css */
+.team {
+  padding: 60px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.team h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #ff5733;
+}
+
+.team p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.team-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.team-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+}
+
+.avatar {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.team-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.team-card p {
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 5px;
+}

@@ -1,0 +1,50 @@
+/* 📁 src/components/clients.css */
+.clients {
+  padding: 60px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.clients h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #ff5733;
+}
+
+.clients p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.clients-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.client-card {
+  background: #f1f1f1;
+  border-radius: 12px;
+  padding: 20px 30px;
+  width: 180px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.client-card:hover {
+  transform: scale(1.05);
+}
+
+.logo {
+  font-size: 36px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.client-card h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+}
