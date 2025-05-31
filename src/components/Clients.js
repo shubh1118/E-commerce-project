@@ -1,4 +1,4 @@
-// 📁 src/components/Clients.js
+
 import React from "react";
 import "../styles/clients.css";
 
