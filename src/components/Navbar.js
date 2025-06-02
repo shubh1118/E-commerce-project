@@ -6,15 +6,23 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <h1>Marketing & Entertainment</h1>
+      <div className="logo">Marketing & Entertainment</div>
       <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
         ☰
       </button>
-      <ul className={menuOpen ? "open" : ""}>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#clients">Clients</a></li>
-        <li><a href="#contact">Contact</a></li>
+      <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#services">Services</a>
+        </li>
+        <li>
+          <a href="#clients">Clients</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
       </ul>
     </nav>
   );
